@@ -35,3 +35,5 @@ const movies = [
       "https://static.wikia.nocookie.net/harrypotter/images/2/2c/Goblet_of_Fire_Film_Poster.jpg/revision/latest?cb=20140817011104",
   },
 ];
+
+export default movies;
