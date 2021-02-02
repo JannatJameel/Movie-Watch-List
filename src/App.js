@@ -1,14 +1,16 @@
-import MovieList from "./components/MovieList";
+import WatchedList from "./components/WatchedList";
+import UnwatchedList from "./components/UnwatchedList";
+
 
 function App() {
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <MovieList />
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <WatchedList />
         </div>
-        <div class="col">
-          <MovieList />
+        <div className="col">
+          <UnwatchedList />
         </div>
       </div>
     </div>
